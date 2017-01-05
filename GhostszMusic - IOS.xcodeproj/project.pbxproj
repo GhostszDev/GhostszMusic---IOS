@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7E8DF5F1E1F0440002FA247 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E8DF5E1E1F0440002FA247 /* AppDelegate.swift */; };
+		D7E8DF611E1F0440002FA247 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E8DF601E1F0440002FA247 /* RootViewController.swift */; };
+		D7E8DF631E1F0440002FA247 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E8DF621E1F0440002FA247 /* DataViewController.swift */; };
+		D7E8DF651E1F0440002FA247 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E8DF641E1F0440002FA247 /* ModelController.swift */; };
+		D7E8DF681E1F0440002FA247 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E8DF661E1F0440002FA247 /* Main.storyboard */; };
+		D7E8DF6A1E1F0440002FA247 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E8DF691E1F0440002FA247 /* Assets.xcassets */; };
+		D7E8DF6D1E1F0440002FA247 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E8DF6B1E1F0440002FA247 /* LaunchScreen.storyboard */; };
+		D7E8DF781E1F0441002FA247 /* GhostszMusic___IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E8DF771E1F0441002FA247 /* GhostszMusic___IOSTests.swift */; };
+		D7E8DF831E1F0441002FA247 /* GhostszMusic___IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E8DF821E1F0441002FA247 /* GhostszMusic___IOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7E8DF741E1F0441002FA247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7E8DF531E1F0440002FA247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7E8DF5A1E1F0440002FA247;
+			remoteInfo = "GhostszMusic - IOS";
+		};
+		D7E8DF7F1E1F0441002FA247 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7E8DF531E1F0440002FA247 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7E8DF5A1E1F0440002FA247;
+			remoteInfo = "GhostszMusic - IOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7E8DF5B1E1F0440002FA247 /* GhostszMusic - IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GhostszMusic - IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E8DF5E1E1F0440002FA247 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7E8DF601E1F0440002FA247 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D7E8DF621E1F0440002FA247 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		D7E8DF641E1F0440002FA247 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		D7E8DF671E1F0440002FA247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7E8DF691E1F0440002FA247 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7E8DF6C1E1F0440002FA247 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7E8DF6E1E1F0440002FA247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E8DF731E1F0441002FA247 /* GhostszMusic - IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GhostszMusic - IOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E8DF771E1F0441002FA247 /* GhostszMusic___IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GhostszMusic___IOSTests.swift"; sourceTree = "<group>"; };
+		D7E8DF791E1F0441002FA247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E8DF7E1E1F0441002FA247 /* GhostszMusic - IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GhostszMusic - IOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E8DF821E1F0441002FA247 /* GhostszMusic___IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GhostszMusic___IOSUITests.swift"; sourceTree = "<group>"; };
+		D7E8DF841E1F0441002FA247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7E8DF581E1F0440002FA247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E8DF701E1F0441002FA247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E8DF7B1E1F0441002FA247 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7E8DF521E1F0440002FA247 = {
+			isa = PBXGroup;
+			children = (
+				D7E8DF5D1E1F0440002FA247 /* GhostszMusic - IOS */,
+				D7E8DF761E1F0441002FA247 /* GhostszMusic - IOSTests */,
+				D7E8DF811E1F0441002FA247 /* GhostszMusic - IOSUITests */,
+				D7E8DF5C1E1F0440002FA247 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E8DF5C1E1F0440002FA247 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E8DF5B1E1F0440002FA247 /* GhostszMusic - IOS.app */,
+				D7E8DF731E1F0441002FA247 /* GhostszMusic - IOSTests.xctest */,
+				D7E8DF7E1E1F0441002FA247 /* GhostszMusic - IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7E8DF5D1E1F0440002FA247 /* GhostszMusic - IOS */ = {
+			isa = PBXGroup;
+			children = (
+				D7E8DF5E1E1F0440002FA247 /* AppDelegate.swift */,
+				D7E8DF601E1F0440002FA247 /* RootViewController.swift */,
+				D7E8DF621E1F0440002FA247 /* DataViewController.swift */,
+				D7E8DF641E1F0440002FA247 /* ModelController.swift */,
+				D7E8DF661E1F0440002FA247 /* Main.storyboard */,
+				D7E8DF691E1F0440002FA247 /* Assets.xcassets */,
+				D7E8DF6B1E1F0440002FA247 /* LaunchScreen.storyboard */,
+				D7E8DF6E1E1F0440002FA247 /* Info.plist */,
+			);
+			path = "GhostszMusic - IOS";
+			sourceTree = "<group>";
+		};
+		D7E8DF761E1F0441002FA247 /* GhostszMusic - IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E8DF771E1F0441002FA247 /* GhostszMusic___IOSTests.swift */,
+				D7E8DF791E1F0441002FA247 /* Info.plist */,
+			);
+			path = "GhostszMusic - IOSTests";
+			sourceTree = "<group>";
+		};
+		D7E8DF811E1F0441002FA247 /* GhostszMusic - IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7E8DF821E1F0441002FA247 /* GhostszMusic___IOSUITests.swift */,
+				D7E8DF841E1F0441002FA247 /* Info.plist */,
+			);
+			path = "GhostszMusic - IOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7E8DF5A1E1F0440002FA247 /* GhostszMusic - IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E8DF871E1F0441002FA247 /* Build configuration list for PBXNativeTarget "GhostszMusic - IOS" */;
+			buildPhases = (
+				D7E8DF571E1F0440002FA247 /* Sources */,
+				D7E8DF581E1F0440002FA247 /* Frameworks */,
+				D7E8DF591E1F0440002FA247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GhostszMusic - IOS";
+			productName = "GhostszMusic - IOS";
+			productReference = D7E8DF5B1E1F0440002FA247 /* GhostszMusic - IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7E8DF721E1F0441002FA247 /* GhostszMusic - IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E8DF8A1E1F0441002FA247 /* Build configuration list for PBXNativeTarget "GhostszMusic - IOSTests" */;
+			buildPhases = (
+				D7E8DF6F1E1F0441002FA247 /* Sources */,
+				D7E8DF701E1F0441002FA247 /* Frameworks */,
+				D7E8DF711E1F0441002FA247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E8DF751E1F0441002FA247 /* PBXTargetDependency */,
+			);
+			name = "GhostszMusic - IOSTests";
+			productName = "GhostszMusic - IOSTests";
+			productReference = D7E8DF731E1F0441002FA247 /* GhostszMusic - IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7E8DF7D1E1F0441002FA247 /* GhostszMusic - IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E8DF8D1E1F0441002FA247 /* Build configuration list for PBXNativeTarget "GhostszMusic - IOSUITests" */;
+			buildPhases = (
+				D7E8DF7A1E1F0441002FA247 /* Sources */,
+				D7E8DF7B1E1F0441002FA247 /* Frameworks */,
+				D7E8DF7C1E1F0441002FA247 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7E8DF801E1F0441002FA247 /* PBXTargetDependency */,
+			);
+			name = "GhostszMusic - IOSUITests";
+			productName = "GhostszMusic - IOSUITests";
+			productReference = D7E8DF7E1E1F0441002FA247 /* GhostszMusic - IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7E8DF531E1F0440002FA247 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = GhostszMedia;
+				TargetAttributes = {
+					D7E8DF5A1E1F0440002FA247 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D7E8DF721E1F0441002FA247 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7E8DF5A1E1F0440002FA247;
+					};
+					D7E8DF7D1E1F0441002FA247 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7E8DF5A1E1F0440002FA247;
+					};
+				};
+			};
+			buildConfigurationList = D7E8DF561E1F0440002FA247 /* Build configuration list for PBXProject "GhostszMusic - IOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7E8DF521E1F0440002FA247;
+			productRefGroup = D7E8DF5C1E1F0440002FA247 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7E8DF5A1E1F0440002FA247 /* GhostszMusic - IOS */,
+				D7E8DF721E1F0441002FA247 /* GhostszMusic - IOSTests */,
+				D7E8DF7D1E1F0441002FA247 /* GhostszMusic - IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E8DF591E1F0440002FA247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E8DF6D1E1F0440002FA247 /* LaunchScreen.storyboard in Resources */,
+				D7E8DF6A1E1F0440002FA247 /* Assets.xcassets in Resources */,
+				D7E8DF681E1F0440002FA247 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E8DF711E1F0441002FA247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E8DF7C1E1F0441002FA247 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E8DF571E1F0440002FA247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E8DF611E1F0440002FA247 /* RootViewController.swift in Sources */,
+				D7E8DF651E1F0440002FA247 /* ModelController.swift in Sources */,
+				D7E8DF631E1F0440002FA247 /* DataViewController.swift in Sources */,
+				D7E8DF5F1E1F0440002FA247 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E8DF6F1E1F0441002FA247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E8DF781E1F0441002FA247 /* GhostszMusic___IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7E8DF7A1E1F0441002FA247 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E8DF831E1F0441002FA247 /* GhostszMusic___IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7E8DF751E1F0441002FA247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7E8DF5A1E1F0440002FA247 /* GhostszMusic - IOS */;
+			targetProxy = D7E8DF741E1F0441002FA247 /* PBXContainerItemProxy */;
+		};
+		D7E8DF801E1F0441002FA247 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7E8DF5A1E1F0440002FA247 /* GhostszMusic - IOS */;
+			targetProxy = D7E8DF7F1E1F0441002FA247 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7E8DF661E1F0440002FA247 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E8DF671E1F0440002FA247 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7E8DF6B1E1F0440002FA247 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7E8DF6C1E1F0440002FA247 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7E8DF851E1F0441002FA247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7E8DF861E1F0441002FA247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7E8DF881E1F0441002FA247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GhostszMusic - IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghostszmusic.com.GhostszMusic---IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7E8DF891E1F0441002FA247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "GhostszMusic - IOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghostszmusic.com.GhostszMusic---IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D7E8DF8B1E1F0441002FA247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GhostszMusic - IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghostszmusic.com.GhostszMusic---IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhostszMusic - IOS.app/GhostszMusic - IOS";
+			};
+			name = Debug;
+		};
+		D7E8DF8C1E1F0441002FA247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "GhostszMusic - IOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghostszmusic.com.GhostszMusic---IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GhostszMusic - IOS.app/GhostszMusic - IOS";
+			};
+			name = Release;
+		};
+		D7E8DF8E1E1F0441002FA247 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "GhostszMusic - IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghostszmusic.com.GhostszMusic---IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GhostszMusic - IOS";
+			};
+			name = Debug;
+		};
+		D7E8DF8F1E1F0441002FA247 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "GhostszMusic - IOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ghostszmusic.com.GhostszMusic---IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "GhostszMusic - IOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E8DF561E1F0440002FA247 /* Build configuration list for PBXProject "GhostszMusic - IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E8DF851E1F0441002FA247 /* Debug */,
+				D7E8DF861E1F0441002FA247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E8DF871E1F0441002FA247 /* Build configuration list for PBXNativeTarget "GhostszMusic - IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E8DF881E1F0441002FA247 /* Debug */,
+				D7E8DF891E1F0441002FA247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7E8DF8A1E1F0441002FA247 /* Build configuration list for PBXNativeTarget "GhostszMusic - IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E8DF8B1E1F0441002FA247 /* Debug */,
+				D7E8DF8C1E1F0441002FA247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7E8DF8D1E1F0441002FA247 /* Build configuration list for PBXNativeTarget "GhostszMusic - IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E8DF8E1E1F0441002FA247 /* Debug */,
+				D7E8DF8F1E1F0441002FA247 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7E8DF531E1F0440002FA247 /* Project object */;
+}
